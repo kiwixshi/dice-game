@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #A2C579;
+            color: #FFFFDD;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 2.5rem;
+        }
+
+        h1{
+            font-family: 'Dancing Script', cursive;
+            font-size: 5rem;
+            color: #016A70;
+        }
+
+        .container{
+            display: grid;
+            margin: 15px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.25fr 1fr 0.25fr;
+            row-gap: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Refresh Me!</h1>
+    <div class="container">
+        <div>Player 1</div>
+        <div>Player 2</div>
+        <div class="die1"><img src="./images/dice1.png" alt="dice with number1"></div>
+        <div class="die2"><img src="./images/dice1.png" alt="dice with number1"></div>
+    </div>
+    <script src="./dice.js"></script>
+</body>
+</html>
